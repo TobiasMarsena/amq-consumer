@@ -65,8 +65,8 @@ public class Consumer {
          *  more detail the blog post, "5 Minutes or Less: ActiveMQ with JMS Queues and Topics".
          */
         Destination destination = null; 	
-//        destination = session.createQueue("MyQueue");	       	
-        destination = session.createTopic("PegadaianTopic");    
+        destination = session.createQueue("MyQueue");	       	
+//        destination = session.createTopic("MyTopic");    
         
         /*  A MessageConsumer is specific to a destination - it can only
          *  receive messages from a specific Topic or Queue.
